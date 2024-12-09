@@ -42,7 +42,7 @@ from WallDetect.review_screen import ReviewScreen
 # Khởi tạo Firebase
 cred = credentials.Certificate('serviceKey.json') #người dùng tự khởi tạo cơ sở dữ liệu. Project sử dụng firebase (storage,firestore)
 firebase_admin.initialize_app(cred, {
-    'storageBucket': 'lemonde-5d8af.appspot.com'
+    'storageBucket': 'xxxxxxxxxxxxx' #NGười dùng lấy key của mình
 })
 
 # Khởi tạo Firestore và Storage
